@@ -12,7 +12,7 @@ local spawnManager = require "src/spawnManager"
 require "utils/utils"
 
 function game.load()
-  game.music = love.audio.newSource("Sounds/PerceptionSong.mp3")
+  game.music = love.audio.newSource("sounds/PerceptionSong.mp3")
   game.music:setLooping(true)
   game.font = love.graphics.newFont(20)
   spawnManager.load()
